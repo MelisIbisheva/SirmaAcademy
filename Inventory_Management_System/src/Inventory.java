@@ -13,8 +13,8 @@ public class Inventory implements Serializable {
         items.add(item);
     }
 
-    public void removeItemById(String itemId) {
-        items.removeIf(item -> item.getItemId().equals(itemId));
+    public void removeItemById(int itemId) {
+        items.removeIf(item -> item.getItemId()==itemId);
     }
 
     public List<InventoryItem> getItems() {

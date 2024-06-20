@@ -1,18 +1,18 @@
 public class InventoryItem extends AbstractItem {
-    private String itemId;
+    private int itemId;
     private int quantity;
 
-    public InventoryItem(String itemId, String name, String category, boolean breakable, boolean perishable, double price, int quantity) {
+    public InventoryItem(int itemId, String name, String category, boolean breakable, boolean perishable, double price, int quantity) {
         super(name, category, breakable, perishable, price);
         this.itemId = itemId;
         this.quantity = quantity;
     }
 
-    public String getItemId() {
+    public int getItemId() {
         return itemId;
     }
 
-    public void setItemId(String itemId) {
+    public void setItemId(int itemId) {
         this.itemId = itemId;
     }
 

@@ -1,7 +1,7 @@
 public class FragileItem extends InventoryItem {
     private double weight;
 
-    public FragileItem(String itemId, String name, double price, int quantity, String category, boolean breakable, double weight) {
+    public FragileItem(int itemId, String name, String category, boolean breakable, boolean perishable, double price, int quantity, double weight) {
         super(itemId, name, category, breakable, false, price, quantity);
         this.weight = weight;
     }

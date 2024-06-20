@@ -1,7 +1,7 @@
 public class ElectronicsItem extends InventoryItem {
     private int warrantyPeriod; // in months
 
-    public ElectronicsItem(String itemId, String name, double price, int quantity, String category, boolean breakable, int warrantyPeriod) {
+    public ElectronicsItem(int itemId, String name, String category, boolean breakable, boolean perishable, double price, int quantity, int warrantyPeriod) {
         super(itemId, name, category, breakable, false, price, quantity);
         this.warrantyPeriod = warrantyPeriod;
     }

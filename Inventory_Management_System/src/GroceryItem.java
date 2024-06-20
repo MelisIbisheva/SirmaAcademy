@@ -1,7 +1,7 @@
 public class GroceryItem extends InventoryItem {
     private double weight;
 
-    public GroceryItem(String itemId, String name, double price, int quantity, String category, boolean breakable, boolean perishable, double weight) {
+    public GroceryItem(int itemId, String name, String category, boolean breakable, boolean perishable, double price, int quantity, double weight) {
         super(itemId, name, category, breakable, perishable, price, quantity);
         this.weight = weight;
     }
