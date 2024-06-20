@@ -4,21 +4,30 @@ import java.util.List;
 
 public class Inventory implements Serializable {
     private List<InventoryItem> items;
+    private  List<Order> ordes;
 
     public Inventory() {
         items = new ArrayList<>();
+        ordes = new ArrayList<>();
     }
 
     public void addItem(InventoryItem item) {
-        items.add(item);
+        this.items.add(item);
     }
 
     public void removeItemById(int itemId) {
-        items.removeIf(item -> item.getItemId()==itemId);
+        this.items.removeIf(item -> item.getItemId()==itemId);
     }
 
     public List<InventoryItem> getItems() {
-        return items;
+        return this.items;
+    }
+
+    public List<Order> getOrdes() {
+        return this.ordes;
+    }
+    public void addOrder (Order order){
+        this.ordes.add(order);
     }
 
     public void saveInventory(List<InventoryItem> inventory, String fileName) {

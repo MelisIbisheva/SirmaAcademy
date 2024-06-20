@@ -184,7 +184,7 @@ public class InventorySystem {
             System.out.println("Item not found.");
             return;
         }
-        
+
         System.out.print("Enter new category: ");
         String category = scanner.nextLine();
         item.setCategory(category);
