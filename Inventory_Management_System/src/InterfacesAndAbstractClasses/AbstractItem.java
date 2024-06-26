@@ -1,10 +1,4 @@
-package InterfacesAndAbstactClasses;
-
-import InterfacesAndAbstactClasses.Breakable;
-import InterfacesAndAbstactClasses.Categorizable;
-import InterfacesAndAbstactClasses.Perishable;
-import InterfacesAndAbstactClasses.Sellable;
-import InterfacesAndAbstractClasses.Item;
+package InterfacesAndAbstractClasses;
 
 import java.time.LocalDate;
 

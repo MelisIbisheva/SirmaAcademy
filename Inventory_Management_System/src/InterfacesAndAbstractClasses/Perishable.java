@@ -1,4 +1,4 @@
-package InterfacesAndAbstactClasses;
+package InterfacesAndAbstractClasses;
 
 import java.time.LocalDate;
 // Interface defining methods for perishable items

@@ -1,4 +1,4 @@
-package InterfacesAndAbstactClasses;
+package InterfacesAndAbstractClasses;
 
 // Interface defining methods for sellable items
 public interface Sellable {

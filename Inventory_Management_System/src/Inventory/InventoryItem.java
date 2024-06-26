@@ -1,6 +1,6 @@
 package Inventory;
 
-import InterfacesAndAbstactClasses.AbstractItem;
+import InterfacesAndAbstractClasses.AbstractItem;
 
 public class InventoryItem extends AbstractItem {
     private int itemId;

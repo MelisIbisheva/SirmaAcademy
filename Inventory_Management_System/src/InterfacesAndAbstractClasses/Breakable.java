@@ -1,4 +1,4 @@
-package InterfacesAndAbstactClasses;
+package InterfacesAndAbstractClasses;
 
 // Interface defining methods for breakable items
 public interface Breakable {
