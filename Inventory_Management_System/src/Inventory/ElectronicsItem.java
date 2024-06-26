@@ -1,3 +1,5 @@
+package Inventory;
+
 public class ElectronicsItem extends InventoryItem {
     private int warrantyPeriod; // in months
 

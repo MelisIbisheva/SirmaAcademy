@@ -1,3 +1,5 @@
+package Inventory;
+
 public class FragileItem extends InventoryItem {
     private double weight;
 

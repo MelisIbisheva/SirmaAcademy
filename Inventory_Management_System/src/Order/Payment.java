@@ -1,3 +1,4 @@
+package Order;
 public class Payment {
     private double amount;
 

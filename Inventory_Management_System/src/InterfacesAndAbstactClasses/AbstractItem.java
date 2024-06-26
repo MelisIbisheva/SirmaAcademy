@@ -1,3 +1,11 @@
+package InterfacesAndAbstactClasses;
+
+import InterfacesAndAbstactClasses.Breakable;
+import InterfacesAndAbstactClasses.Categorizable;
+import InterfacesAndAbstactClasses.Perishable;
+import InterfacesAndAbstactClasses.Sellable;
+import InterfacesAndAbstractClasses.Item;
+
 import java.time.LocalDate;
 
 public abstract class AbstractItem implements Item, Categorizable, Breakable, Perishable, Sellable {
