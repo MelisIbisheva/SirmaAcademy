@@ -3,10 +3,11 @@ body{
    background-color: #fefae0;
    margin: 0;
    padding: 20px;
+   color: #023047;
 }
 
 h1, h2 {
-   color: #457b9d;
+   color: #023047;
 }
 
 form{
@@ -33,6 +34,8 @@ button{
    background-color: #003049;
    color: #fff;
    cursor: pointer;
+   border: none;
+   border-radius: 10px;
 }
 
 button:hover{

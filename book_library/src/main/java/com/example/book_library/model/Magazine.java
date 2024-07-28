@@ -6,6 +6,7 @@ public class Magazine {
     private int year;
     private String issn;
 
+    public Magazine(){}
     public Magazine(String title, String publisher, int year, String issn) {
         this.title = title;
         this.publisher = publisher;

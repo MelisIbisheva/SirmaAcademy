@@ -1,6 +1,7 @@
 package com.example.book_library.controller;
 
 import com.example.book_library.model.Book;
+import com.example.book_library.model.Magazine;
 import com.example.book_library.service.LibraryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,5 +28,19 @@ public class LibraryController {
     public String addBooks(@ModelAttribute Book book){
         service.addBook(book);
         return "redirect:/books";
+    }
+
+    @GetMapping("/magazines")
+    public String viewMagazines(Model model){
+        model.addAttribute("magazine", new Magazine());
+        model.addAttribute("magazines", service.getMagazines());
+        return "magazines";
+
+    }
+
+    @PostMapping("/magazines")
+    public String addMagazines(@ModelAttribute Magazine magazine){
+        service.addMagazines(magazine);
+        return "redirect:/magazines";
     }
 }
